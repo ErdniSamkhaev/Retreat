@@ -1,0 +1,32 @@
+.description {
+  margin: 0 0 32px;
+  background-image: url("../../img/Teberda-description.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  padding: 175px 0 0 5px;
+}
+
+.description__place {
+  text-align: center;
+  display: block;
+  color: #ffffff;
+}
+
+.description__text {
+  text-align: center;
+  color: #ffffff;
+  width: 60%;
+  margin: 0 0 90px;
+  text-transform: uppercase;
+}
+
+.description__time {
+  text-align: center;
+  color: rgb(15, 15, 15);
+  margin: 0 auto 0 auto;
+  width: 90%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+}

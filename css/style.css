@@ -1,0 +1,18 @@
+/* global */
+@import "global/container.css";
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/visually-hidden.css";
+
+/* block */
+@import "blocks/header.css";
+@import "blocks/description.css";
+@import "blocks/command.css";
+@import "blocks/deep-description.css";
+@import "blocks/invite.css";
+@import "blocks/programm-day.css";
+@import "blocks/cost.css";
+@import "blocks/retrit-info.css";
+@import "blocks/reviews.css";
+@import "blocks/btn.css";
+
