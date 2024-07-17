@@ -103,13 +103,10 @@
   text-align: center;
 }
 
-
-
 /* Медиа-запросы для мобильных устройств */
 @media (max-width: 768px) {
   .sec-about {
     height: auto;
-    background-size: auto;
   }
 
   .about-heading,
