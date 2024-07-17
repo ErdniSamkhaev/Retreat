@@ -102,3 +102,52 @@
   display: inline-block;
   text-align: center;
 }
+
+
+
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 768px) {
+  .sec-about {
+    height: auto;
+    background-size: auto;
+  }
+
+  .about-heading,
+  .text-center,
+  .text-center__2,
+  .text-center__span {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
+    padding: 10px;
+  }
+
+  /* Дополнительно можно адаптировать размер текста и другие свойства */
+  .about-heading,
+  .text-center,
+  .text-center__2,
+  .text-center__span {
+    font-size: 16px; /* Уменьшаем размер шрифта */
+  }
+
+  /* Адаптируем ссылки */
+  .sec-about a {
+    color: #000;
+    font-size: 14px; /* Можно также адаптировать размер шрифта ссылок */
+  }
+
+  /* Адаптируем параграфы */
+  .sec-about p {
+    font-size: 14px;
+  }
+
+  /* Адаптируем заголовки контейнеров */
+  .container > h1 {
+    font-size: 24px; /* Уменьшаем размер шрифта заголовков */
+  }
+}
