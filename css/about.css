@@ -107,6 +107,9 @@
 @media (max-width: 768px) {
   .sec-about {
     height: auto;
+    &:after {
+      background: rgba(0, 0, 0, 0.5);
+    }
   }
 
   .about-heading,
